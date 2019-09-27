@@ -119,3 +119,117 @@
     background-color: #ffffff;
     margin: 10px 10px 10px 0;
 }
+
+.datediv h3{
+    width: 200px;
+    height: 27px;
+    font-family: NanumSquareOTFB;
+    font-size: 25px;
+    color: #000000;
+    margin: 25px 0 0 30px;
+}
+
+.datediv img{
+    width: 242px;
+    height: 254px;
+    object-fit: contain;
+    margin: 27px 92px 19px 86px;
+}
+
+.datediv label{
+    width: 201px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgba(62, 78, 108, 0.8);
+    margin: 0 110px 65px 110px;
+}
+
+.datediv label p{
+    width: 151px;
+    height: 33px;
+    font-family: NanumSquareOTFB;
+    font-size: 15px;
+    line-height: 1.47;
+    color: #ffffff;
+    text-align: left;
+    margin: 8px 30px 8px 30px;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    width: 1311px;
+    height: 85px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin: 0 90px 0 90px;
+}
+
+.ovalSpan{
+    width: 20px;
+    height: 20px;
+    background-color: #ff5879;
+    border-radius: 10px;
+    margin: 32px 0 33px 60px;
+}
+
+.bar p{
+    width: 120px;
+    height: 27px;
+    font-family: NanumSquareOTFB;
+    font-size: 25px;
+    color: #000000;
+    margin: 29px 0 29px 10px;
+}
+
+.ovalSpan2{
+    width: 20px;
+    height: 20px;
+    background-color: #ffc64c;
+    border-radius: 10px;
+    margin: 32px 0 33px 20px;
+}
+
+.pageOval{
+    width: 10px;
+    height: 10.2px;
+    background-color: #d8d8d8;
+    border-radius: 5px;
+    margin: 37px 0 37px 840px;
+}
+
+.pageOval2{
+    width: 10px;
+    height: 10.2px;
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    margin: 37px 0 37px 10px;
+}
+
+.chart{
+    width: 910px;
+    height: 510px;
+    margin: 0 20px 70px 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.timebar{
+    width: 910px;
+    height: 50px;
+    background-color: #f7f7f9;
+    border-radius: 3px;
+}
+
+.timebar p{
+    width: 87px;
+    height: 20px;
+    font-family: NanumSquareOTFB;
+    font-size: 18px;
+    color: #000000;
+    padding: 15px 0 0 50px;  
+}
+
+
+
