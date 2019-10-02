@@ -193,7 +193,7 @@
 .pageOval{
     width: 10px;
     height: 10.2px;
-    background-color: #d8d8d8;
+    background-color: #4a4a4a;
     border-radius: 5px;
     margin: 37px 0 37px 840px;
 }
@@ -201,7 +201,7 @@
 .pageOval2{
     width: 10px;
     height: 10.2px;
-    background-color: #4a4a4a;
+    background-color: #d8d8d8;
     border-radius: 5px;
     margin: 37px 0 37px 10px;
 }
@@ -214,6 +214,83 @@
     flex-direction: row;
 }
 
+.rightchart{
+    display: flex;
+    flex-direction: column;
+    margin: 17px 90px 70px 20px
+}
+
+.rightchartdiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.measurediv{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 252px;
+    border-radius: 10px;
+}
+
+.measurediv > .measurebar{
+    width: 380px;
+    height: 50px;
+    background-color:#f7f7f9;
+    margin: 0;
+    
+}
+
+.measurediv > .measurebar p{
+    width: 87px;
+    height: 20px;
+    font-family: NanumSquareOTFB;
+    font-size: 18px;
+    color: #000000;
+    padding: 0 0 0 30px;
+}
+
+.measurediv > .barchart{
+    width: 380px;
+    height: 200px;
+    margin: 1px 0 0 0;
+    background-color: #ffffff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+}
+
+.highpolludiv{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 234px;
+    margin: 20px 21px 0 0;
+}
+
+.highpolludivbar{
+    width: 180px;
+    height: 50px;
+    background-color: #f7f7f9;
+}
+
+.highpolludivbar p{
+    width: 124px;
+    height: 19px;
+    font-family: NanumSquareOTFB;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    padding: 0 0 10px 26px;
+}
+
+.highpolludivtime{
+    width: 180px;
+    height: 180px;
+    background-color: #ffffff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    margin: 4px 0 0 0;
+}
 
 .timebar{
     width: 910px;

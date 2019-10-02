@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import Bar from './Bar';
 import '../pages/App.css';
 import moment from 'moment';
+import Measure from './MeasureOfDay';
+import HighPollution from './HighPollutionTime';
+import LatelyPollution from './LatelyPollution';
 import {Animated} from 'react-animated-css';
 import {
     LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip,
@@ -20,7 +23,6 @@ class Chart extends Component{
     constructor(props){
         super(props);
         this.state={
-         
           chartVisible : true,
           visible : true
       };
@@ -134,7 +136,7 @@ class Chart extends Component{
         this.co2DataDimention();
         return(
                 <div>
-                    <Bar/>
+                    <Bar changeChart={this.state.visible}/>
                     <div className='chart'>
                         <div className="leftchart">
                             <div className='timebar'>
@@ -158,8 +160,15 @@ class Chart extends Component{
                                     <Line type="monotone" dot={false} dataKey={changeChart[4]} stroke={changeChart[2]} strokeWidth={3}/>
                                 </LineChart>
                             </Animated> 
+                          </div>
+                        <div className='rightchart'>
+                            <Measure/>
+                            <div className='rightchartdiv'>
+                                <HighPollution/>
+                                <LatelyPollution/>
+                            </div>
                         </div>
-                    </div>
+                      </div>
                 </div>
         );
     }
