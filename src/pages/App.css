@@ -290,6 +290,51 @@
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px; 
     margin: 4px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.highpolludivtime > span{
+    display: flex;
+    flex-direction: row;
+}
+
+.highpolludivtime > span > p{
+    width: 65px;
+    height: 29px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #4a4a4a;
+    margin: 30px 0 0 25px;
+}
+
+.highpolludivtime > span > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.highpolluLine{
+    width: 140px;
+    height: 1px;
+    border: solid 1px #cfd9df;
+    margin: 17px 20px 0 20px;
+}
+
+.highpolludivtime > span > div > p{
+    margin: 10px 0 0 15px;
+    height: 13px;
+    font-family: NanumSquareOTFR;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+}
+
+.highpolludivtime > span > div > img{
+    width: 35px;
+    height: 35px;
+    margin: 15px 0 0 20px;
 }
 
 .timebar{

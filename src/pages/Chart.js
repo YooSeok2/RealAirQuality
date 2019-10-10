@@ -164,8 +164,8 @@ class Chart extends Component{
                         <div className='rightchart'>
                             <Measure/>
                             <div className='rightchartdiv'>
-                                <HighPollution/>
-                                <LatelyPollution/>
+                                <HighPollution changeView={this.state.visible}/>
+                                <LatelyPollution changeView={this.state.visible}/>
                             </div>
                         </div>
                       </div>
