@@ -13,7 +13,6 @@ class App extends Component{
             <div className="maindiv">
                 <div className="leftdiv">
                     <Side />
-                    
                     <Chart/>
                 </div>
                 <Date/>

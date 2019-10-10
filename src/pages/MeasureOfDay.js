@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import './App.css';
 import {
-    BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
+    BarChart, Bar,  XAxis, CartesianGrid, Tooltip,
   } from 'recharts';
 
 class MeasureOfDay extends Component{
